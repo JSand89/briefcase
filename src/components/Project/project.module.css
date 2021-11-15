@@ -1,0 +1,28 @@
+.Card{
+    list-style: none;
+    display:grid;
+    justify-content: left;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.image{
+
+    background-color:#BE5457;
+    
+}
+@media screen and (max-width:500px ) {
+    .Card{
+        justify-content: left;
+        margin-left: -30px;
+        margin-top: 50px;
+        margin-right: -10px;
+        width: 300px;
+
+    }
+    .image{
+
+        background-color: #BE5457;
+    }
+      
+}

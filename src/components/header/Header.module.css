@@ -1,0 +1,42 @@
+.image{
+    background-image: url("https://i.ibb.co/89GYB2m/Portada.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 800px;
+}
+@media(max-width:1290px){ 
+.image{
+    width: 1019px;
+    height: 500px;
+
+}
+}
+/* mirar si se sube mejor otra imagen */
+@media(max-width:1040px){ 
+    .image{
+        width: 800px;
+        height: 500px;
+    
+    }    
+}
+@media(max-width:800px){ 
+    .image{
+        width: 95%;
+        height: 400px;   
+        background-image: url("https://i.ibb.co/PMzqF49/Portada-Small.png");
+        background-repeat: no-repeat; 
+        background-color: #494FBE;
+        margin-left: 30px;
+    }        
+    }
+    @media(max-width:600px){ 
+        .image{
+            width: 95%;
+            height: 200px;  
+            margin-left: 20px;
+            object-fit: contain; 
+            background-image: url("https://i.ibb.co/drgWBGw/Portada-SSmall.png");
+            background-repeat: no-repeat; 
+            background-color: #494FBE;
+        }        
+        }

@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "name":"50 Challenges",
+        "deploy":"https://jsand89.github.io/challenges/",
+        "git":"https://github.com/JSand89/challenges",
+        "tecnologys":"HTML,CSS,JavaScript, REACT",
+        "image":"https://i.ibb.co/QKJRqmT/RETOS.jpg",
+        "imageMed":"https://i.ibb.co/9wHM2VC/retosMid.jpg",
+        "imageBig":"https://i.ibb.co/GcDHKKD/retos-Desk.jpg"
+    },
+    {
+        "id":2,
+        "name":"Un Cliente Real",
+        "deploy":"https://jsand89.github.io/PuntoyComa/",
+        "git":"https://github.com/JSand89/PuntoyComa",
+        "tecnologys":"REACT",
+        "image":"https://i.ibb.co/RT8K1Pc/punto-Coma-Cel.jpg",
+        "imageMed":"https://i.ibb.co/FzgSPq3/Punto-Coma-Med.jpg",
+        "imageBig":"https://i.ibb.co/kHdw7Nd/punto-Coma-Big.jpg"
+    },    
+    {
+        "id":3,
+        "name":"Movies CRUD",
+        "deploy":"https://movies-app-sanchez.herokuapp.com/#/movies",
+        "git":"https://github.com/JSand89/Movies",
+        "tecnologys":"MySQL,Express JS,ANGULAR",
+        "image":"https://i.ibb.co/mtJp2s2/Movie-CRUDCel.jpg",
+        "imageMed":"https://i.ibb.co/LzG316d/Movie-CRUDMed.jpg",
+        "imageBig":"https://i.ibb.co/0QhRHh9/Movie-CRUDBig.jpg"
+    },
+    {
+        "id":4,
+        "name":"Sistema de Inventario",
+        "deploy":"https://safe-river-82717.herokuapp.com/",
+        "git":"https://github.com/jsand89/storeapp",
+        "tecnologys":"MySQL,Django,REACT",
+        "image":"https://i.ibb.co/mtJp2s2/Movie-CRUDCel.jpg",
+        "imageMed":"https://i.ibb.co/LzG316d/Movie-CRUDMed.jpg",
+        "imageBig":"https://i.ibb.co/0QhRHh9/Movie-CRUDBig.jpg"
+    }
+]
