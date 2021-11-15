@@ -9,10 +9,10 @@ function Cards() {
         console.log(e.Name.includes(search))
     }
 
-    var Filter=search=="Search"| search==''? Data: Data.filter(item=>item.tecnologys.includes(search))
+    var Filter = search ==="Search"| search ===''? Data: Data.filter(item=>item.tecnologys.includes(search))
     console.log(Filter)
     useEffect(()=>{
-        Filter=search=="Search"| search==''? Data:Data.filter(cond)
+        Filter=search === "Search"| search === ''? Data:Data.filter(cond)
         console.log(Filter)
 
 

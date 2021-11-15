@@ -10,9 +10,9 @@ function Project({props}) {
                 <li><a href={props.deploy}>Project Deploy</a></li>
                 <li><a href={props.git}>Repository Link</a></li>
                 <li>Tecnologys: {props.tecnologys}</li>
-
-
+                <li><hr color='#494FBE' size='3'></hr></li>
             </ul>
+
         </div>
     )
 }

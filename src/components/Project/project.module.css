@@ -1,14 +1,27 @@
+a:link, a:visited, a:active{
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#f4f4f4;
+}
+a:hover{
+    background-color:#494FBE;
+}
 .Card{
     list-style: none;
     display:grid;
     justify-content: left;
     margin-left: 50px;
     margin-right: 50px;
+    color: #f4f4f4;
+    text-decoration: none;
+    margin-top: 100px;
 
 }
 .image{
 
-    background-color:#BE5457;
+    background-color:#494FBE;
     
 }
 @media screen and (max-width:500px ) {
@@ -22,7 +35,7 @@
     }
     .image{
 
-        background-color: #BE5457;
+        background-color: #494FBE;
     }
       
 }

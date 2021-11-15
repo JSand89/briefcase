@@ -33,7 +33,7 @@
         .image{
             width: 95%;
             height: 200px;  
-            margin-left: 20px;
+            margin-left: 0px;
             object-fit: contain; 
             background-image: url("https://i.ibb.co/drgWBGw/Portada-SSmall.png");
             background-repeat: no-repeat; 

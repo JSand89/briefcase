@@ -10,29 +10,33 @@ function Texts() {
             <p>
             I enjoy to study and solve problems. Thanks to my previous job experiences I have been able to develop my soft abilities like teamwork and leadership of interdisciplinary groups.
             </p>
+            <hr color='#494FBE' size='3'></hr>
             <h2 className={style.skills}>SKILLS</h2>
             <div className={style.image1} ></div>
 {/* this class is empety because probabli change the BG color whit change in the skills presentation */}
             <div className={style.bgExperience}>
+            <hr color='#494FBE' size='3'></hr>
             <h2 className={style.skills}>EXPERIENCE</h2>
             <h3 className={style.subtitule} >Sub gerente <br/>Ingenieria Servicios y Desarrollos S.A.S</h3>
             <p>
-            As assistant manager I lead an interdisciplinary group in a R&D project which is actually between the top 100 most innovative projects competing for the Entrepreneurship World Cup, three patents and intent from investor over $5M            </p>
-            <p>
-            I enjoy to study and solve problems. Thanks to my previous job experiences I have been able to develop my soft abilities like teamwork and leadership of interdisciplinary groups.
-            </p>
+            As assistant manager I lead an interdisciplinary group in a R&D project which is actually between the top 100 most innovative projects competing for the Entrepreneurship World Cup, three patents and intent from investor over $5M</p>
             </div>
+            <hr color='#494FBE' size='3'></hr>
             <div className={style.bgAchivements}>
             <h2 className={style.skills}>ACHIEVEMENTS</h2>
+            <hr color='#14233E' size='3'></hr>
             <h3 className={style.subtitule} >Patents</h3>
             <p>
             GENERADOR IONICO DE ENERGÍA TÉRMICA RENOVABLE<br/>
             co,NC2020/0004755              
             </p>
+            <hr color='#f4f4f4' size='3'></hr>
             <p>
             SISTEMA DE DESINTEGRACIÓN DE VIRUS Y MÉTODO ASOCIADO CON EL MISMO <br/>
             co, NC2020/0005589            
             </p>
+            <hr color='#f4f4f4' size='3'></hr>
+
             </div>
         </div>
     )
