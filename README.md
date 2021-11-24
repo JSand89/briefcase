@@ -19,7 +19,7 @@ You will also see any lint errors in the console.
 
 ## `Deploy de proyect in GH-Pages`
 ### `npm run build`
-###    `npm run deploy`
+###  `npm run deploy`
 
 
 
