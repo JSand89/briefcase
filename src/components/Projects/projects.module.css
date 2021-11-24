@@ -1,11 +1,9 @@
 .Cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
 input{
-    position: absolute;
     left: 40%;
     margin-top: 50px;
     width: 300px;
@@ -15,9 +13,8 @@ input{
     color:#f4f4f4;
     font-size: 64px;
     font-family:'Bebas Neue', cursive;
-
 }
-@media screen and (max-width:500px ) {
+@media screen and (max-width:1040 ) {
     .Cards{
         justify-content: center;
     }
@@ -28,14 +25,11 @@ input{
     }
     input{
         position: absolute;
-        left: 20px;
-        margin-top: 0px;
+        left: 50px;
 
     }
-
     .profile{
         font-size: 40px;
         padding-left: 40px;
-
     }   
 }

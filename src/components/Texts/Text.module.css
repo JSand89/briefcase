@@ -1,7 +1,7 @@
 .text{
     margin-left: 10%;
     margin-right: 20%;
-    margin-top: -250px;
+    margin-top: -10px;
 }
 
 p{
@@ -12,9 +12,9 @@ p{
     color:#f4f4f4;
     font-size: 64px;
     font-family:'Bebas Neue', cursive;
-
 }
 .image1{
+
     background-color: #ffffff;
     width: 90%;
     height: 300px;
@@ -22,7 +22,7 @@ p{
     background-repeat: no-repeat; 
     align-items: center;
     background-image: url('https://i.ibb.co/PW1BjkM/skills1.png');
-    margin-top: -55px;
+    margin-top: 5px;
 
 }
 .skills{

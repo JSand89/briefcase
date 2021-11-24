@@ -13,7 +13,7 @@ function Cards() {
     var Filter = search ==="Search"| search ===''? Data: Data.filter(item=>item.tecnologys.includes(search))
     console.log(Filter)
     useEffect(()=>{
-        Filter=search === "Search"| search === ''? Data:Data.filter(cond)
+        Filter = search.toUpperCase === "Search"| search === ''? Data:Data.filter(cond)
         console.log(Filter)
 
 

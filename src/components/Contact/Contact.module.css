@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.containerContactMe {
+    margin-top: 70px;
+    background-color: #14233E;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.pContac {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    font-family: 'Titillium Web';
+    font-style: bold;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+
+
+
+
+.formContainer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 400px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 6px;
+}
+
+.title {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.labels {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.inputs {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #0065C8;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+.submit {
+    width: 100%;
+    border:1px solid #0065C8 ;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #494FBE;
+    margin: 16px 0;
+    color:white;
+    cursor: pointer;
+}
+
+.titleProject{
+    margin-top: 50px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    color: white;
+    padding-left: 130px;
+    
+
+}
+
+@media (max-width: 810px) {
+    .pContac {
+        text-align: center;
+        width: 85%;
+        margin: auto;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .infoGeneral {
+        width: 70%;
+        margin: auto;
+    }
+    .formContainer {
+        width: 80%;
+    }
+}
